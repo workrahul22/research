@@ -1,0 +1,11 @@
+[package]
+name = "rust_video_player"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ffmpeg-next = "7.0"
+crossbeam-channel = "0.5"
+minifb = "0.27"
+cpal = "0.15"
+ringbuf = "0.3"
